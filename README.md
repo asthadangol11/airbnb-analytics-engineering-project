@@ -13,7 +13,7 @@ An end-to-end ELT pipeline following the **Medallion Architecture (Bronze → Si
 
 ## Objectives
 - **Data Ingestion (Airflow → Bronze)**
-    - Ingest** monthly Airbnb CSVs, Census, and LGA mapping data into Postgres.
+    - Ingest  monthly Airbnb CSVs, Census, and LGA mapping data into Postgres.
     - Maintain raw structure for auditability and historical traceability.
 - **Transformation & Modeling (dbt → Silver & Gold)**
     - Clean, standardize, and normalize Airbnb + Census data.
